@@ -6,5 +6,5 @@
   <p><?=$email; ?></p>
   <p>{{$email}}</p>
   <script src="js/script.js"></script>
-  <img src="img/{{$image}}" alt="{{$name}}">
+  <img src="img/{{$image}}" alt="{{$name}} " width="200" class="img-thumbnail rounded-circle">
 @endsection
